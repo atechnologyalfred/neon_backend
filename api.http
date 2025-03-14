@@ -1,8 +1,29 @@
-POST http://localhost:3000/register
-content-type: application/json
+# private route
 
-{
-    "userName": "Alfred loves Charisma",
-    "userEmail": "alfredcharisma@gmail.com",
-    "userPassword": "charismaalfred"
-}
+
+GET http://localhost:3000/dashboard
+token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiZDljODk2NDgtMTM2Ni00NDQ4LWE1NDYtZmNlNTg4NzQ2NTZkIiwiaWF0IjoxNzQxOTE5MTI1LCJleHAiOjE3NDE5MjI3MjV9.wFFdvH3w3awDO7eKo02vj0Sz3egHT5QQonH2eNaWgyw"
+
+
+# register route
+
+
+# POST http://localhost:3000/register
+# content-type: application/json
+
+# {
+#     "userName" : "Engineer Marho",
+#     "userEmail": "marholee@yahoo.com",
+#     "userPassword": "marho"
+# }
+
+
+# login route
+
+# GET http://localhost:3000/login
+# content-type: application/json
+
+# {
+#     "userEmail": "marholee@yahoo.com",
+#     "userPassword": "marho"
+# }
